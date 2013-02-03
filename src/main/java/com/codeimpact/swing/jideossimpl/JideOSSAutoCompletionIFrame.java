@@ -31,7 +31,7 @@ public class JideOSSAutoCompletionIFrame extends CIInternalFrame {
 
     private void initData() {
         listNama = new ArrayList<String>(
-                Arrays.asList("Eko Suhariyadi", "Hiro Kunimi", "Chiaki Shinichi", "Kudo Shinichi", "Haruka Koga", "Megumi Noda", "Ran Mori"));
+                Arrays.asList("Eko Suhariyadi", "Hiro Kunimi", "Chiaki Shinichi", "Kudo Shinichi", "Haruka Koga", "Megumi Noda", "Ran Mouri"));
         listKota = new ArrayList<String>(
                 Arrays.asList("Sidoarjo", "Surabaya", "Malang", "Madiun", "Jakarta"));
     }
@@ -74,7 +74,7 @@ public class JideOSSAutoCompletionIFrame extends CIInternalFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(txtNama)
-                    .addComponent(comboKota, 0, 313, Short.MAX_VALUE))
+                    .addComponent(comboKota, 0, 301, Short.MAX_VALUE))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -88,7 +88,7 @@ public class JideOSSAutoCompletionIFrame extends CIInternalFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(comboKota, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel1))
-                .addContainerGap(218, Short.MAX_VALUE))
+                .addContainerGap(66, Short.MAX_VALUE))
         );
 
         pack();
